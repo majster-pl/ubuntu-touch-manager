@@ -1,0 +1,24 @@
+Source: ubuntu-touch-manager
+Section: python
+Priority: extra
+Build-Depends: debhelper (>= 8),
+ python (>= 2.6.6-3~),
+ python-distutils-extra (>= 2.10)
+Maintainer: Szymon Waliczek <majsterrr@gmail.com>
+Standards-Version: 3.9.3
+X-Python-Version: >= 2.6
+
+Package: ubuntu-touch-manager
+Architecture: all
+Depends: ${misc:Depends},
+ ${python:Depends},
+ python-apport,
+ gir1.2-glib-2.0,
+ gir1.2-gtk-3.0,
+ python-xdg,
+ gir1.2-gdkpixbuf-2.0,
+ yelp
+Description: Application for managigng your Ubuntu Touch device.
+ This application lets you takes screenshots and share them to Ubuntu One
+ or Dropbox, download/upload content from/to your mobile device and more
+ to come... ;-)

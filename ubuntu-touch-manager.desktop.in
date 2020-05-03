@@ -1,0 +1,8 @@
+[Desktop Entry]
+_Name=Ubuntu Touch Manager
+_Comment=UbuntuTouchManager application
+Categories=GNOME;Utility;
+Exec=ubuntu-touch-manager
+Icon=ubuntu-touch-manager
+Terminal=false
+Type=Application
